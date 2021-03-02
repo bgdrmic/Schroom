@@ -1,0 +1,4 @@
+Onion	1	30	50	70	NULL	NULL	50	70	6	7
+Tomato	20	25	60	70	160	NULL	65	85	5.5	7
+Watermelon	26	30	50	60	NULL	NULL	70	80	5.5	7.5
+Phalaeopsis Orchid	15	32	50	80	50	100	25	75	5.5	6.5

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingStart="10dip"
+        android:paddingEnd="10dip"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/culture_chooser" />
+
+    <ListView
+        android:id="@+id/cultureList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingStart="20dip"
+        android:paddingEnd="20dip"
+        android:layout_weight="1" />
+
+</LinearLayout>
